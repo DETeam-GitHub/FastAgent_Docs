@@ -87,7 +87,7 @@ def rpy(e):
         return f"Error For {e}"
 
 
-client = ZhipuAI(api_key="e01557ea562275022a8100f41d9858e7.Z5xg6mh4FonWWsuB")
+client = ZhipuAI(api_key="YOUR_API_KEY")
 
 msg = [
     {
