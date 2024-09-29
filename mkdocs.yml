@@ -16,6 +16,9 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  
+  logo: f.svg
+  favicon: f.svg
 
 markdown_extensions:
   - pymdownx.highlight:
