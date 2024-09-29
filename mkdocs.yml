@@ -3,10 +3,12 @@ nav:
     - Home: index.md
     - About: about.md
 
+repo_url: https://github.com/DETeam-GitHub/FastAgent
+repo_name: FastAgent
+
 theme:
   name: material
   palette:
-
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
@@ -26,11 +28,15 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-        
+
+  icon:
+    repo: fontawesome/brands/github
+
   language: zh
   logo: f.svg
   favicon: f.svg
   features: 
+    - navigation.tabs
     - content.code.copy
 
 markdown_extensions:
