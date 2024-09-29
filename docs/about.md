@@ -175,3 +175,6 @@ while True:
     l , p= c.chat(l,input("User> "))
     print(l[-1]["content"])
 ```
+
+> 明显看出：
+> 使用本项目的代码量减少很多，且可读性更高
