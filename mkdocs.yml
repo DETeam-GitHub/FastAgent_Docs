@@ -16,7 +16,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  
+  language: zh
   logo: f.svg
   favicon: f.svg
 
@@ -34,3 +34,23 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - attr_list
+
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: 简体中文
+      link: /
+      lang: zh
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DETeam-Github/FastAgent_Docs
+      name: FastAgent_Docs
+    - icon: fontawesome/brands/github
+      link: https://github.com/DETeam-Github/FastAgent
+      name: FastAgent
+
+copyright: Copyright &copy; 2023 - 2024 DebugEpoch
