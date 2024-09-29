@@ -1,4 +1,4 @@
-# Sorry, we are not ready with the English documentation yet!
+# Sorry, we are not ready with the English documentation yet
 
 You can choose to contribute yourself:
 

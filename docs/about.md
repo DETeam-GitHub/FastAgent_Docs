@@ -14,9 +14,7 @@
 
 > 写的很烂，大家轻点喷
 
-zpws.py
-
-```python
+```python title="zpws.py" linenums="1"
 import requests
 import uuid
 from rich import print
@@ -24,7 +22,7 @@ from rich import print
 
 api_key = "YOUR_API_KEY"
 
-def run_v4_sync(q="中国队奥运会拿了多少奖牌"):
+def run_v4_sync(q):
     msg = [
         {
             "role": "user",
@@ -55,9 +53,7 @@ if __name__ == '__main__':
     print(run_v4_sync().json())
 ```
 
-main.py
-
-```python
+```python title="main.py" linenums="1"
 from zhipuai import ZhipuAI
 from rich import print
 import json
@@ -131,7 +127,7 @@ while True:
 
 ### 使用本项目
 
-```python
+```python title="main.py" linenums="1"
 from fast_agent import FastAgent
 import requests,uuid
 from zhipuai import ZhipuAI
