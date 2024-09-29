@@ -2,9 +2,8 @@ site_name: FastAgent
 nav:
     - Home: index.md
     - About: about.md
-theme: material
 
-theme: material
+theme:
   palette: 
 
     # Palette toggle for light mode
