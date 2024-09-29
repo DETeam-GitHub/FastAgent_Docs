@@ -4,6 +4,7 @@ nav:
     - About: about.md
 
 theme:
+  name: material
   palette: 
     # Palette toggle for light mode
     - scheme: default
